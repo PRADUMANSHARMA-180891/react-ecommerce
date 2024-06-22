@@ -1,11 +1,10 @@
-import Layout from "./component/layout/Layout"
-function App({children}) {
+import Home from "./page/homepage/Home"
+
+function App() {
   
   return (
     <>
-           <Layout  >
-              {children}
-           </Layout>
+         <Home />   
     </>
   )
 }
