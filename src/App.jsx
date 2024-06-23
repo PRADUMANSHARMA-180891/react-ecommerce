@@ -12,6 +12,8 @@ import {
 import LoginPage from "./page/authpage/LoginPage";
 import SignupPage from "./page/authpage/SignupPage";
 import CartPage from "./page/cartpage/CartPage";
+import Checkout from "./page/checkoutpage/CheckoutPage";
+import ProductDetail from "./feature/product-List/ProductDetails";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +31,14 @@ const router = createBrowserRouter([
   {
     path: '/cart',
     element: <CartPage></CartPage>
+  },
+  {
+    path: '/checkout',
+    element: <Checkout></Checkout>
+  },
+  {
+    path: '/product-details',
+    element: <ProductDetail></ProductDetail>
   },
 ]);
 
